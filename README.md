@@ -5,10 +5,10 @@
 PCL-DETECTION-NLP/
 │
 ├── code/
-│ ├── analysis.ipynb # EDA, threshold tuning, error analysis
-│ ├── model.ipynb # Model training & prediction pipeline
+├── analysis.ipynb # EDA, threshold tuning, error analysis
+├── model.ipynb # Model training & prediction pipeline
 │
-├── data/ # Dataset files (not uploaded to repo)
+├── data/ # Dataset files
 │
 ├── dev.txt # Dev predictions (BestModel)
 ├── test.txt # Test predictions (BestModel)
