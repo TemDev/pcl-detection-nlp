@@ -3,17 +3,18 @@
 ## Repository Structure
 
 PCL-DETECTION-NLP/
-│
-├── code/
-├── analysis.ipynb # EDA, threshold tuning, error analysis
-├── model.ipynb # Model training & prediction pipeline
-│
-├── data/ # Dataset files
-│
-├── dev.txt # Dev predictions (BestModel)
-├── test.txt # Test predictions (BestModel)
-│
-├── README.md
+
+code/
+
+analysis.ipynb # EDA, threshold tuning, error analysis
+model.ipynb # Model training & prediction pipeline
+
+data/ # Dataset files
+
+dev.txt # Dev predictions (BestModel)
+test.txt # Test predictions (BestModel)
+
+README.md
 
 ## Project Overview
 
