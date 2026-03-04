@@ -108,6 +108,17 @@ This suggests the model partially relies on vulnerability-related lexical shortc
 
 ---
 
+## Dependencies (requirements.txt)
+
+A `requirements.txt` is included to reproduce the EDA + training environment locally (Pandas/NumPy/Matplotlib, scikit-learn, spaCy for POS analysis, and the Hugging Face + PyTorch training stack).
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
 ## Running the Notebooks
 
 ⚠️ **Important: Kaggle Environment**
