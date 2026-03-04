@@ -1,0 +1,22 @@
+# Core data / EDA
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# NLP + lexical features
+spacy>=3.7
+
+# ML utilities (vectorizers, metrics, etc.)
+scikit-learn>=1.3
+
+# HF training stack
+datasets>=2.16
+transformers>=4.38
+accelerate>=0.27
+tokenizers>=0.15
+safetensors>=0.4
+
+# Deep learning
+torch>=2.1
+
+# Install separately: python -m spacy download en_core_web_sm
